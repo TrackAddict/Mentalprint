@@ -26,7 +26,7 @@ def intro():
 
 def write_results(contents):
 
-	file_path = "results3.csv"
+	file_path = "MTest.csv"
 
 	array = np.asarray(contents, dtype=np.float32)
 
@@ -73,7 +73,7 @@ def record(out, session):
         if num_samples > time:
         	
 
-        	raw_input("Training has concluded, open results.csv to try identification")
+        	raw_input("Training has concluded, open MTest.csv to try identification")
 
         	write_results(results)
 
